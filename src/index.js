@@ -13,7 +13,7 @@ const root = createRoot(container);
 root.render(
     <React.StrictMode>
         <Provider store={store}>
-            <BrowserRouter basename='/goit-react-hw-06-phonebook'>
+            <BrowserRouter basename='/goit-react-hw-07-phonebook'>
                 <App />
             </BrowserRouter>
         </Provider>

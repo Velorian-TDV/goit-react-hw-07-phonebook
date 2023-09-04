@@ -9,11 +9,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	width: 100vw;
 	min-height: 100vh;
-
-	background-color: rgb(232, 255, 255);
-
+	background: linear-gradient(145deg, #3d3d3d, #202020);
 	overflow-x: hidden;
 }

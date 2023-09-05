@@ -11,6 +11,7 @@ export default function FormSection({ name, type, pattern, title }) {
                 id={name}
                 pattern={pattern}
                 title={title}
+                autoComplete='off'
                 required
             />
         </section>

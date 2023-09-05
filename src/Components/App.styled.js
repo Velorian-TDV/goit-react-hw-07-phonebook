@@ -2,7 +2,7 @@ import { styled } from 'styled-components';
 
 export const Wrapper = styled.div`
     padding: 20px;
-    min-width: 350px;
+    min-width: 400px;
     max-width: 400px;
 
     border: 1px solid rgba(128, 128, 128, 0.1);
@@ -144,6 +144,8 @@ export const Wrapper = styled.div`
                 button{
                     margin-left: auto;
                     padding: 5px 10px;
+                    max-height: 30px;
+                    min-height: 30px;
 
                     color: lightseagreen;
                     letter-spacing: .5px;

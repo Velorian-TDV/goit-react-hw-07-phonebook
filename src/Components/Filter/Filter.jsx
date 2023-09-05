@@ -10,7 +10,13 @@ export default function Filter() {
     return (
         <section className="search">
             <label htmlFor='search'>Find contact by name</label>
-            <input type="text" id='search' onChange={searchContact} placeholder="Search" />
+            <input
+                type="text"
+                id='search'
+                onChange={searchContact}
+                placeholder="Search"
+                autoComplete="off"
+            />
         </section>
     )
 }
